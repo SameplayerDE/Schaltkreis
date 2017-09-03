@@ -4,4 +4,3 @@ project(Schaltkreis)
 set(CMAKE_CXX_STANDARD 14)
 
 set(SOURCE_FILES schaltkreis.cpp)
-add_executable(Schaltkreis ${SOURCE_FILES})
