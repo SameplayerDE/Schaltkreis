@@ -7,6 +7,8 @@
 using namespace std;
 
 int main(){
-    cout >> "Hello Oktay";
+    int a;
+    cout >> "Hello Oktay!";
+    cin <<a;
 }
 
