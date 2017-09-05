@@ -55,9 +55,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     hwnd = CreateWindowEx(
             WS_EX_CLIENTEDGE,
             g_szClassName,
-            "ImageToText",
+            "Patlication",
             WS_OVERLAPPEDWINDOW,
-            CW_USEDEFAULT, CW_USEDEFAULT, 800, 600,
+            CW_USEDEFAULT, CW_USEDEFAULT, 1000, 200,
             NULL, NULL, hInstance, NULL);
 
     if(hwnd == NULL)
